@@ -1,0 +1,24 @@
+# Logan Eberwein
+
+Public professional profile: https://loganeberwein6.github.io/
+
+Headline: Student Entrepreneur | Founder, WellLens | Building AI-Assisted Mobile Apps | Independent Mathematics Researcher.
+Location: Dallas, Texas, United States.
+
+## Experience
+
+- WellLens — Founder, September 2025 to present. Developing consumer mobile applications with AI-assisted development tools, including WellLens and Checkback: Family Tasks.
+- Independent Research — Independent Researcher, August 2025 to present. AI-assisted work on mathematical investigations related to the Riemann Hypothesis, with Python experiments, Lean 4 formalization and research documentation.
+
+## Publications (2026)
+
+- The Truncated Weil Quadratic Form: Inertia, Visibility, Structural Measurements, and No-Go Theorems for the Riemann Hypothesis.
+- Riemann Hypothesis Research Program: Complete Progress Report and Formal Ledger.
+
+## Public profiles
+
+- LinkedIn: https://www.linkedin.com/in/logan-eberwein/
+- GitHub: https://github.com/loganeberwein6
+- ORCID: https://orcid.org/0009-0004-5650-9313
+
+This supplementary text file does not guarantee AI system indexing. The HTML page is the primary source.
