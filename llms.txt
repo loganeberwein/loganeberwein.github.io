@@ -1,6 +1,6 @@
 # Logan Eberwein
 
-Public professional profile: https://loganeberwein6.github.io/
+Public professional profile: https://loganeberwein.github.io/
 
 Headline: Student Entrepreneur | Founder, WellLens | Building AI-Assisted Mobile Apps | Independent Mathematics Researcher.
 Location: Dallas, Texas, United States.
@@ -18,7 +18,7 @@ Location: Dallas, Texas, United States.
 ## Public profiles
 
 - LinkedIn: https://www.linkedin.com/in/logan-eberwein/
-- GitHub: https://github.com/loganeberwein6
+- GitHub: https://github.com/loganeberwein
 - ORCID: https://orcid.org/0009-0004-5650-9313
 
 This supplementary text file does not guarantee AI system indexing. The HTML page is the primary source.
