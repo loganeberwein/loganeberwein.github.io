@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+  <meta name="author" content="Logan Eberwein">
+  <meta name="description" content="Logan Eberwein — student entrepreneur, founder of WellLens, building AI-assisted mobile apps, and independent mathematics researcher in Dallas, Texas.">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Logan Eberwein">
+  <meta property="og:description" content="Student Entrepreneur | Founder, WellLens | Building AI-Assisted Mobile Apps | Independent Mathematics Researcher">
+  <meta property="og:url" content="https://loganeberwein6.github.io/">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://loganeberwein6.github.io/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+  <title>Logan Eberwein — Profile</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "url": "https://loganeberwein6.github.io/",
+    "mainEntity": {
+      "@type": "Person",
+      "@id": "https://loganeberwein6.github.io/#person",
+      "name": "Logan Eberwein",
+      "url": "https://loganeberwein6.github.io/",
+      "description": "Student Entrepreneur | Founder, WellLens | Building AI-Assisted Mobile Apps | Independent Mathematics Researcher",
+      "jobTitle": "Founder, WellLens",
+      "address": {"@type": "PostalAddress", "addressLocality": "Dallas", "addressRegion": "Texas", "addressCountry": "US"},
+      "sameAs": [
+        "https://www.linkedin.com/in/logan-eberwein/",
+        "https://github.com/loganeberwein6",
+        "https://orcid.org/0009-0004-5650-9313"
+      ]
+    }
+  }
+  </script>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #202020;
+      --muted: #646464;
+      --line: #dfdfdf;
+      --serif: "Newsreader", Georgia, "Times New Roman", serif;
+      --sans: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: #fff;
+      color: var(--ink);
+      font-family: var(--sans);
+      font-size: 15px;
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; text-underline-offset: 4px; text-decoration-thickness: 1px; }
+    a:hover { color: #777; }
+    a:focus-visible { outline: 2px solid #222; outline-offset: 4px; }
+    ::selection { background: #e8e8e8; }
+
+    .page { width: min(100% - 72px, 1010px); margin: 0 auto; }
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+      padding: 29px 0;
+      border-bottom: 1px solid var(--line);
+      font-size: 12px;
+      line-height: 1.4;
+    }
+    .topbar__name { font-weight: 700; letter-spacing: -.01em; text-decoration: none; }
+    .topbar__links { display: flex; flex-wrap: wrap; gap: 23px; }
+    .topbar__links a { color: var(--muted); text-decoration: none; }
+    .topbar__links a:hover { color: var(--ink); }
+
+    .progress {
+      position: fixed;
+      z-index: 10;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: #252525;
+      transform: scaleX(0);
+      transform-origin: left;
+      pointer-events: none;
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 198px;
+      align-items: start;
+      gap: clamp(35px, 9vw, 105px);
+      padding: 104px 0 98px;
+    }
+    h1, h2, h3, p, ul, ol { margin-top: 0; }
+    .hero h1 {
+      margin: 0 0 19px;
+      font-family: var(--serif);
+      font-size: clamp(55px, 7.8vw, 88px);
+      font-weight: 400;
+      line-height: .98;
+      letter-spacing: -.053em;
+    }
+    .headline { max-width: 620px; margin: 0 0 14px; font-size: 17px; font-weight: 500; line-height: 1.65; }
+    .location { color: var(--muted); font-size: 13px; }
+    .photo-placeholder {
+      display: grid;
+      place-items: center;
+      width: 198px;
+      height: 244px;
+      border: 1px solid #cfcfcf;
+      color: #8c8c8c;
+      font-size: 12px;
+      letter-spacing: .015em;
+      text-align: center;
+    }
+    .portrait-image {
+      display: block;
+      width: 198px;
+      height: 244px;
+      object-fit: cover;
+      object-position: center 25%;
+    }
+    .photo-caption { margin-top: 8px; color: #929292; font-size: 11px; line-height: 1.5; }
+
+    .profile-section {
+      display: grid;
+      grid-template-columns: 182px minmax(0, 1fr);
+      column-gap: 52px;
+      padding: 55px 0 63px;
+      border-top: 1px solid var(--line);
+      scroll-margin-top: 35px;
+    }
+    .profile-section > h2 {
+      margin: 3px 0 20px;
+      font-size: 13px;
+      line-height: 1.5;
+      font-weight: 600;
+      letter-spacing: -.01em;
+    }
+    .section-content { max-width: 675px; min-width: 0; }
+    .section-content > :last-child { margin-bottom: 0; }
+    .section-content p { margin-bottom: 18px; }
+    .section-content strong { font-weight: 600; }
+    .section-content h3 { margin: 0; font-size: 17px; line-height: 1.4; font-weight: 600; }
+    .section-content h4 { margin: 24px 0 9px; font-size: 14px; line-height: 1.5; font-weight: 600; }
+    .section-content ol, .section-content ul { margin-bottom: 19px; padding-left: 22px; }
+    .section-content li { padding-left: 3px; margin: 0 0 5px; }
+    .section-content ul li::marker { font-size: .75em; }
+    .subtle { color: var(--muted); }
+
+    .position + .position { margin-top: 49px; padding-top: 42px; border-top: 1px solid var(--line); }
+    .position__top { display: flex; justify-content: space-between; gap: 15px; align-items: baseline; }
+    .position__role { font-weight: 500; margin: 3px 0 6px; }
+    .position__date { color: var(--muted); font-size: 13px; white-space: nowrap; }
+    .position__location { color: var(--muted); font-size: 13px; margin-bottom: 24px !important; }
+    .position h4 { margin-top: 23px; }
+
+    .pub-list { list-style: none; margin: 0; padding: 0 !important; }
+    .pub-list li { padding: 0 0 22px !important; margin: 0 0 22px; border-bottom: 1px solid var(--line); }
+    .pub-list li:last-child { padding-bottom: 0 !important; margin-bottom: 0; border: 0; }
+    .pub-list__title { display: block; max-width: 590px; font-weight: 500; line-height: 1.55; }
+    .pub-list__date { display: block; margin-top: 6px; color: var(--muted); font-size: 12px; }
+    .detail-list { margin: 0; padding: 0; list-style: none; }
+    .detail-list li { padding: 0 !important; margin: 0 0 8px; }
+    .detail-list__note { color: var(--muted); }
+    .contact-links { display: grid; gap: 9px; }
+    .contact-links a { width: fit-content; overflow-wrap: anywhere; }
+    .site-footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 22px;
+      padding: 25px 0 62px;
+      border-top: 1px solid var(--line);
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .site-footer a { text-decoration: none; }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .js .reveal { opacity: 0; transform: translateY(14px); transition: opacity 700ms ease, transform 700ms cubic-bezier(.22, 1, .36, 1); }
+      .js .reveal.visible { opacity: 1; transform: none; }
+    }
+    @media (max-width: 760px) {
+      .page { width: min(100% - 40px, 1010px); }
+      .hero { grid-template-columns: minmax(0, 1fr) 145px; gap: 25px; padding: 69px 0 70px; }
+      .hero h1 { font-size: clamp(51px, 8vw, 69px); }
+      .headline { font-size: 15px; }
+      .photo-placeholder, .portrait-image { width: 145px; height: 180px; }
+      .profile-section { grid-template-columns: 126px minmax(0, 1fr); gap: 24px; padding: 42px 0 49px; }
+      .position__top { display: block; }
+      .position__date { display: block; margin-top: 3px; }
+    }
+    @media (max-width: 540px) {
+      .topbar { align-items: flex-start; padding: 19px 0; }
+      .topbar__links { gap: 11px 16px; justify-content: flex-end; }
+      .hero { grid-template-columns: minmax(0, 1fr) 108px; gap: 20px; padding: 61px 0 64px; }
+      .hero h1 { font-size: clamp(43px, 11vw, 59px); }
+      .headline { font-size: 14px; line-height: 1.6; }
+      .photo-placeholder, .portrait-image { width: 108px; height: 135px; }
+      .photo-placeholder { font-size: 10px; }
+      .photo-caption { font-size: 10px; }
+      .profile-section { display: block; padding: 34px 0 44px; }
+      .profile-section > h2 { margin-bottom: 19px; }
+      .position + .position { margin-top: 36px; padding-top: 34px; }
+      .site-footer { padding-bottom: 35px; }
+    }
+    @media print {
+      .progress { display: none; }
+      body { font-size: 12px; }
+      .hero { padding: 35px 0 45px; }
+      .profile-section { break-inside: avoid; padding: 25px 0; }
+      .js .reveal { opacity: 1 !important; transform: none !important; }
+      a { text-decoration: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="progress" id="scroll-progress" aria-hidden="true"></div>
+  <div class="page" id="top">
+    <header class="topbar" aria-label="Site header">
+      <a class="topbar__name" href="#top">Logan Eberwein</a>
+      <nav class="topbar__links" aria-label="External profiles">
+        <a href="https://www.linkedin.com/in/logan-eberwein/" rel="me">LinkedIn</a>
+        <a href="https://github.com/loganeberwein6" rel="me">GitHub</a>
+        <a href="https://orcid.org/0009-0004-5650-9313" rel="me">ORCID</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero reveal">
+        <div>
+          <h1>Logan<br>Eberwein</h1>
+          <p class="headline">Student Entrepreneur | Founder, WellLens | Building AI-Assisted Mobile Apps | Independent Mathematics Researcher</p>
+          <p class="location">Dallas, Texas, United States</p>
+        </div>
+        <div>
+          <!-- To add your photo: replace the .photo-placeholder div with
+               <img class="portrait-image" src="portrait.jpg" alt="Portrait of Logan Eberwein">
+               and place portrait.jpg in this same folder. -->
+          <div class="photo-placeholder" role="img" aria-label="Placeholder for a portrait photo">
+            <span>Your photo</span>
+          </div>
+        </div>
+      </div>
+
+      <section class="profile-section reveal" id="summary" aria-labelledby="summary-label">
+        <h2 id="summary-label">Summary</h2>
+        <div class="section-content">
+          <p>I'm a student at the School of Science and Engineering in Dallas, and an entrepreneur using AI tools like ChatGPT and Claude to publish math papers and start a company.</p>
+          <p>I'm currently building a software company focused on two mobile apps:</p>
+          <ol>
+            <li><strong>WellLens</strong> — An AI-powered fitness app designed to help users improve their workouts through progressive overload, workout tracking, and personalized training recommendations.</li>
+            <li><strong>Checkback: Family Tasks</strong> — A family productivity and rewards app where parents assign tasks, children submit quick photo proof of completion, and completed tasks earn points that can be redeemed for parent-selected rewards.</li>
+          </ol>
+          <p>Beyond entrepreneurship, I’ve also spent a while following advances in mathematics through AI-assisted research, particularly the Riemann Hypothesis, one of mathematics’ most famous unsolved problems.</p>
+          <p>I've authored two publicly available independent research papers:</p>
+          <ol>
+            <li><em>Riemann Hypothesis Research Program: Complete Progress Report and Formal Ledger</em> (2026)</li>
+            <li><em>The Truncated Weil Quadratic Form: Inertia, Visibility, Structural Measurements, and No-Go Theorems for the Riemann Hypothesis</em> (2026)</li>
+          </ol>
+          <p>My mathematical work has involved using AI to investigate mathematical ideas, organize research, explore potential proofs, and support computational experiments and formal verification.</p>
+          <p>I'm not a mathematician, so using AI tools allows me to act on my metamathematical ideas without needing to spend years learning each concept while developing my AI skills.</p>
+          <p>I’m always interested in connecting with entrepreneurs, developers, and AI researchers.</p>
+          <p>GitHub: <a href="https://github.com/loganeberwein6">https://github.com/loganeberwein6</a></p>
+        </div>
+      </section>
+
+      <section class="profile-section reveal" id="experience" aria-labelledby="experience-label">
+        <h2 id="experience-label">Experience</h2>
+        <div class="section-content">
+          <article class="position">
+            <div class="position__top">
+              <h3>WellLens</h3>
+              <span class="position__date">September 2025 – Present</span>
+            </div>
+            <p class="position__role">Founder</p>
+            <p class="position__location">Dallas, Texas, United States</p>
+            <p>Building an independent software venture focused on developing consumer mobile applications using artificial intelligence and AI-assisted development tools.</p>
+            <p>Currently developing two mobile applications:</p>
+            <h4>WellLens (AI-Assisted Fitness)</h4>
+            <ul>
+              <li>Developing a workout app focused on progressive overload, exercise tracking, and personalized training progression.</li>
+              <li>Exploring how AI can help users make informed adjustments to their workouts and consistently improve over time.</li>
+            </ul>
+            <h4>Checkback: Family Tasks (Family Productivity &amp; Rewards)</h4>
+            <ul>
+              <li>Developing an app that helps parents assign and manage tasks for their children.</li>
+              <li>Designing a photo-based completion system where children submit quick snapshots as proof of completed tasks.</li>
+              <li>Creating a points-based reward system where children earn points from completed tasks and redeem them for rewards established by their parents.</li>
+            </ul>
+            <h4>My Role</h4>
+            <ul>
+              <li>Leading product vision, feature planning, and development priorities for both applications.</li>
+              <li>Using AI tools to assist with software development, problem-solving, and product creation.</li>
+              <li>Exploring user experience design, business strategy, and the process of bringing mobile applications to market.</li>
+            </ul>
+            <p>My goal is to use AI to make it possible to build useful software products and turn my ideas into real businesses.</p>
+          </article>
+
+          <article class="position">
+            <div class="position__top">
+              <h3>Independent Research</h3>
+              <span class="position__date">August 2025 – Present</span>
+            </div>
+            <p class="position__role">Independent Researcher</p>
+            <p class="position__location">Dallas, Texas, United States</p>
+            <p>Conducting independent, AI-assisted mathematical research focused on exploring approaches to the Riemann Hypothesis and understanding how artificial intelligence can contribute to mathematical discovery.</p>
+            <ul>
+              <li>Authored two publicly available research papers in 2026 documenting mathematical investigations, computational experiments, and open problems.</li>
+              <li>Explored mathematical concepts through AI-assisted reasoning, research workflows, and computational tools.</li>
+              <li>Maintained public GitHub repositories containing research papers, Lean 4 formalization work, Python-based experiments, and documentation.</li>
+              <li>Investigated the strengths and limitations of AI-generated mathematics, including the importance of formal verification and identifying incorrect or unsupported claims.</li>
+              <li>Documented experimental results, unsuccessful approaches, and mathematical corrections.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="profile-section reveal" id="education" aria-labelledby="education-label">
+        <h2 id="education-label">Education</h2>
+        <div class="section-content">
+          <h3>Yvonne A. Ewell Townview Center</h3>
+          <p>Sophomore, School of Science and Engineering<br><span class="subtle">August 2025 – May 2029</span></p>
+        </div>
+      </section>
+
+      <section class="profile-section reveal" id="publications" aria-labelledby="publications-label">
+        <h2 id="publications-label">Publications</h2>
+        <div class="section-content">
+          <ul class="pub-list">
+            <li>
+              <span class="pub-list__title">The Truncated Weil Quadratic Form: Inertia, Visibility, Structural Measurements, and No-Go Theorems for the Riemann Hypothesis</span>
+              <span class="pub-list__date">2026</span>
+            </li>
+            <li>
+              <span class="pub-list__title">Riemann Hypothesis Research Program: Complete Progress Report and Formal Ledger</span>
+              <span class="pub-list__date">2026</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="profile-section reveal" id="skills" aria-labelledby="skills-label">
+        <h2 id="skills-label">Top Skills</h2>
+        <div class="section-content">
+          <ul class="detail-list">
+            <li>eSports</li>
+            <li>Robotics</li>
+            <li>Management</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="profile-section reveal" id="languages" aria-labelledby="languages-label">
+        <h2 id="languages-label">Languages</h2>
+        <div class="section-content">
+          <ul class="detail-list">
+            <li>Spanish <span class="detail-list__note">— Limited Working</span></li>
+            <li>English <span class="detail-list__note">— Native or Bilingual</span></li>
+            <li>Portuguese <span class="detail-list__note">— Limited Working</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="profile-section reveal" id="contact" aria-labelledby="contact-label">
+        <h2 id="contact-label">Contact</h2>
+        <div class="section-content contact-links">
+          <a href="mailto:loganeberwein6@gmail.com">loganeberwein6@gmail.com</a>
+          <a href="https://www.linkedin.com/in/logan-eberwein/">LinkedIn</a>
+          <a href="https://github.com/loganeberwein6">GitHub</a>
+          <a href="https://orcid.org/0009-0004-5650-9313">ORCID</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Logan Eberwein</span>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+  </div>
+
+  <script>
+    // Subtle section reveals. All text remains visible without JavaScript.
+    (() => {
+      const items = document.querySelectorAll('.reveal');
+      if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      document.documentElement.classList.add('js');
+      const observer = new IntersectionObserver(entries => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        }
+      }, { threshold: 0.06, rootMargin: '0px 0px 35px 0px' });
+      items.forEach(item => observer.observe(item));
+      const progress = document.getElementById('scroll-progress');
+      let queued = false;
+      const update = () => {
+        const max = document.documentElement.scrollHeight - window.innerHeight;
+        progress.style.transform = `scaleX(${max > 0 ? window.scrollY / max : 0})`;
+        queued = false;
+      };
+      window.addEventListener('scroll', () => {
+        if (!queued) { requestAnimationFrame(update); queued = true; }
+      }, { passive: true });
+      window.addEventListener('resize', update);
+      update();
+    })();
+  </script>
+</body>
+</html>
