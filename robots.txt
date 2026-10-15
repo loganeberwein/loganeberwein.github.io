@@ -1,13 +1,4 @@
-# Permit search engines and AI crawlers to read this public professional profile.
 User-agent: *
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
-# Optional: GPTBot permits potential model-training use; remove this stanza
-# and replace Allow with Disallow if you don't want that form of crawling.
-User-agent: GPTBot
 Allow: /
 
 Sitemap: https://loganeberwein.github.io/sitemap.xml
