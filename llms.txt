@@ -2,7 +2,7 @@
 
 Public profile: https://loganeberwein.github.io/
 
-Sophomore at the School of Science and Engineering (Yvonne A. Ewell Townview Center), Dallas, Texas, class of 2029. Founder of WellLens. Independent researcher working on the Riemann Hypothesis with AI tools.
+Sophomore at the School of Science and Engineering (Yvonne A. Ewell Townview Center), Dallas, Texas, class of 2029. Founder of WellLens. Independent math researcher working with AI tools: a complete Lean 4 proof of Erdős Problem #1139 and a research program on the Riemann Hypothesis.
 
 ## Apps
 
@@ -11,7 +11,15 @@ Sophomore at the School of Science and Engineering (Yvonne A. Ewell Townview Cen
 
 Logan directs the AI tools that write the code; he handles product decisions, design and testing.
 
-## Research (August 2025 to present)
+## Erdős Problem #1139 (November 2026)
+
+Complete Lean 4 proof of the Formal Conjectures statement erdos_1139 (answer: yes), with no sorry and only Lean's three standard axioms. Built on OpenAI's Lean formalization of "Improved Long Gaps Between Primes", with a strengthened Proposition 1.2. Liam Price posted the first (informal, GPT Pro) proof in June 2026; this is an independent route. Erdős Problem a Day rebuilt and checked it on 16 November 2026.
+
+- Erdős Problem #1139: An Alternative Proof via Short Translates (2026). https://doi.org/10.5281/zenodo.24241059
+- Code: https://github.com/loganeberwein/erdos-proofs
+- Independent check: https://erdosproblemaday.com/day/1139-eberwein-lean-proof-rebuilt
+
+## Riemann Hypothesis research (August 2025 to present)
 
 AI-assisted work on the Riemann Hypothesis: 190 documented approaches, 297 operator candidates, Lean 4 formalization, Python computations and a public corrections log. Neither paper is a proof of RH.
 
