@@ -255,9 +255,7 @@
       <section class="profile-section reveal" id="about" aria-labelledby="about-label">
         <h2 id="about-label">About</h2>
         <div class="section-content">
-          <p>I'm a high school sophomore at the School of Science and Engineering in Dallas. I've been using, namely Claude and ChatGPT to tackle open math problems, develop mobile apps, and work on a variety of other projects. Firstly, I would like to apologize for not having the most professionally worded profile, but I'd like a human-written site in the age of AI.</p>
-          <p>I plan to learn my first language soon. I understand the logic from iOS Shortcuts, where my favorite project was a wireframe 3D renderer that draws on a grid of emoji (I made this one myself, without AI assistance).</p>
-          <p>Before high school I did VEX IQ robotics, designing and building several robots myself, as well as programming and driving them too. I've also done some VEX V5 in high school. I played Super Smash Bros. and Fortnite on the esports teams at William B. Travis and Townview.</p>
+          <p>I'm a high school sophomore at the School of Science and Engineering in Dallas. I've been using namely Claude and ChatGPT to tackle open math problems, develop mobile apps, and work on a variety of other projects. Firstly, I would like to apologize for not having the most professionally worded profile, but I'd like a human-written site in the age of AI.</p>
         </div>
       </section>
 
@@ -275,7 +273,7 @@
             <ul>
               <li>You fill out a quick survey to get a tailored workout plan, or input your own.</li>
               <li>As you train, the app learns you, calculating progressive overload and tracking growth.</li>
-              <li>You can add a Gym Buddy, where you hold a friend accountable for working out consistently.</li>
+              <li>You can add friends, where you hold them accountable for working out consistently.</li>
             </ul>
           </article>
 
@@ -307,12 +305,9 @@
               <span class="position__date">November 2026</span>
             </div>
             <p class="position__role">Independent researcher</p>
-            <p>Take the numbers with at most two prime factors: 1, the primes, and products of two primes. Erdős asked whether the gaps between them, infinitely often, beat any fixed multiple of log k. I proved the answer is yes. The proof is complete in Lean 4 and proves the exact statement of #1139 from Google DeepMind's Formal Conjectures, with no <code>sorry</code> and nothing assumed beyond Lean's three standard axioms.</p>
-            <p>The proof builds a long run of consecutive integers that each have at least three prime factors. I pick a residue for each prime up to x and line them up with the Chinese remainder theorem, so a small prime hits every position in the run and most positions get hit twice. Two small primes force a third factor. For the few positions hit once, I strengthened a proposition from OpenAI's paper <a href="https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/long_gaps.pdf">Improved Long Gaps Between Primes</a> so it supplies a large prime factor.</p>
-            <p>I worked out the argument with Claude, had ChatGPT review the estimates, and used Claude Code to extend OpenAI's Lean formalization and write the proof of the full statement. My proof adds three declarations to OpenAI's Lean file and changes none of theirs.</p>
-            <p>Liam Price posted the first proof, made with GPT Pro, in June 2026. In October, Linmiao Xu posted a Lean proof that assumes a Green–Tao-type theorem Mathlib doesn't have yet. Mine takes a different route and assumes nothing.</p>
+            <p>I have also published a Lean-verified proof of Erdős problem #1139, built on a result in OpenAI's October 6 "mathpocalypse" paper dump. I had Claude Opus 5.5 working on open problems relating to prime numbers, and it found a way to piggyback off of OpenAI's Improved Long Gaps Between Primes. Liam Price uploaded a proof made with GPT-5.4 Pro in June 2026, which was labeled "unauditable" by sites that track Erdős problems, and Linmiao Xu uploaded a conditional Lean-verified proof in October 2026. My proof compiles only on Lean's three standard axioms. Opus 5.5 in Chat did all of the work, with Claude Code (also on Opus 5.5) doing the Lean formalization.</p>
             <h4>Independent check</h4>
-            <p><a href="https://erdosproblemaday.com/day/1139-eberwein-lean-proof-rebuilt">Erdős Problem a Day</a> rebuilt my release on their own machine (8,713 jobs) and confirmed it rests on Lean's three standard axioms alone. They compiled the official statement by itself, and Lean accepted my proof at that type and rejected it at three altered statements. Their verdict: "the answer to #1139 is yes, with a machine-checked proof." They also called it the first complete Lean proof they know of that assumes nothing. No human expert has refereed the paper's prose yet.</p>
+            <p><a href="https://erdosproblemaday.com/day/1139-eberwein-lean-proof-rebuilt">Erdős Problem a Day</a> rebuilt my release and confirmed that it's an unconditional proof. They said: "the answer to #1139 is yes, with a machine-checked proof." They also called it the first complete Lean proof they know of that assumes nothing.</p>
           </article>
 
           <article class="position">
